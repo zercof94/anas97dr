@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: saudi-chatbot
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: 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
+        value: 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
